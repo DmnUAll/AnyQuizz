@@ -31,8 +31,8 @@ extension QuestionsPresenter {
 
     private func showAlert() {
         let message = """
-Congratulations!\n
-Your result:  \(gameStatistics.numberOfCorrectAnswers)/\(gameStatistics.numberOfQuestions)\n
+Congratulations!
+Your result:  \(gameStatistics.numberOfCorrectAnswers)/\(gameStatistics.numberOfQuestions)
 Time: \(gameStatistics.time) seconds
 """
         let alertControler = UIAlertController(title: "Game Ended",

@@ -57,9 +57,9 @@ extension ScoresController: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
         guard let result = presenter?.giveResult(forIndexPath: indexPath) else { return }
         let text = """
-    Hey!\n
-    I scored \(result.numberOfCorrectAnswers)/\(result.numberOfQuestions) correct answers at AnyQuizz app!\n
-    Category - \(result.category ?? "")!\n
+    Hey!
+    I scored \(result.numberOfCorrectAnswers)/\(result.numberOfQuestions) correct answers at AnyQuizz app!
+    Category - \(result.category ?? "")!
     It was at \(result.date?.dateTimeString ?? Date().dateTimeString). I finished in \(result.time) seconds.
     """
         let textToShare = [text]
