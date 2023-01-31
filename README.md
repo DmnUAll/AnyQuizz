@@ -16,7 +16,6 @@ Save or share your quiz results.
 <img src="https://user-images.githubusercontent.com/82824022/214800835-e43ff25a-be90-47a8-a190-ae3aea9125b9.PNG" width=30% height=30%>
 </p>
 
-This project was the fourteenth app writen by myself.\
 The main functionality that was applied in this project:
 - JSON parsing
 - CoreData
